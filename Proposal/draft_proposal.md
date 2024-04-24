@@ -1,0 +1,14 @@
+# Final Project Proposal
+
+## Why is this problem important? 
+California is a single state. However, the many regions of California can be treated as anything but the same. A growing problem is clear: there is a need to compare indicators of public health (pollution, poverty, resource quality, and various other lifestyle factors) across these different counties. For our project, the goal is to zoom in on two California counties with supposed differences (San Diego and Los Angeles) and answer the following question: Which public health issues do San Diego and Los Angeles have in common? In other words, which indicators of public health for districts in San Diego County come from the same distribution as indicators of public health for districts in L.A. County? Are the differences between indicators of health for S.D. and L.A. due to chance alone or statistically significant? 
+
+## What are the data sources for this? Where do you plan on acquiring the data from?
+CALEnviroScreen (CES) is an online, government-backed tool for evaluating public health by region; the current version, CES 4.0, has a publicly available dataset on its website. This dataset has over 8000 observations (one per census district) and over 50 variables (different public health indicators) describing each observation, updated as recently as 2021. We would like to analyze this dataset.
+
+
+## What type of analyses do you propose for the dataset?
+For each variable of interest, we would conduct a permutation test to compare whether or not indicators of public health districts in San Diego and L.A. come from the same distribution. For example, conducting a permutation test for the “poverty” variable would determine whether or not the poverty in districts across S.D. and L.A. come from the same distribution, which can be viewed as measuring “whether S.D. and L.A. share a similar severity of poverty.”
+
+## What are your expected outcomes for the project?
+We expect to see both similarities and differences between the severity of public health indicators between S.D. and L.A. By finding noticeable differences in public health between these two counties, it gives a starting point for investigating what is causing these differences. Having access to earlier data that provides information using similar variables, we hope to observe trends between the three datasets. Of course, this means we will also potentially observe differences between these variables. 
